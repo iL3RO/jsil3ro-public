@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Mi Sitio Web con Hugo</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Mi Sitio Web con Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 09 Oct 2025 12:00:00 +0100</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown y HTML: La Combinación Perfecta</title>
+      <link>http://localhost:1313/posts/terceraentrada/</link>
+      <pubDate>Thu, 09 Oct 2025 12:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/terceraentrada/</guid>
+      
+      <description>&lt;h1 id=&#34;el-poder-de-markdown&#34;&gt;El poder de Markdown&lt;/h1&gt;
+&lt;h2 id=&#34;qué-es-markdown&#34;&gt;¿Qué es Markdown?&lt;/h2&gt;
+&lt;p&gt;Markdown es un &lt;strong&gt;lenguaje de marcado ligero&lt;/strong&gt; creado por John Gruber en 2004.&lt;/p&gt;
+&lt;h3 id=&#34;ventajas-de-usar-markdown&#34;&gt;Ventajas de usar Markdown&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sintaxis simple y legible&lt;/li&gt;
+&lt;li&gt;Fácil de aprender&lt;/li&gt;
+&lt;li&gt;Se convierte automáticamente a HTML&lt;/li&gt;
+&lt;li&gt;Compatible con control de versiones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;elementos-html-básicos&#34;&gt;Elementos HTML básicos&lt;/h4&gt;
+&lt;p&gt;En este artículo he usado todos los elementos requeridos:&lt;/p&gt;
+&lt;h5 id=&#34;títulos-h1-a-h6&#34;&gt;Títulos (H1 a H6)&lt;/h5&gt;
+&lt;p&gt;Ya puedes ver que uso títulos de diferentes niveles, desde el H1 principal hasta este H5.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Despliegue Continuo con Netlify</title>
+      <link>http://localhost:1313/posts/segundaentrada/</link>
+      <pubDate>Thu, 09 Oct 2025 11:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/segundaentrada/</guid>
+      
+      <description>&lt;h1 id=&#34;automatización-del-despliegue&#34;&gt;Automatización del Despliegue&lt;/h1&gt;
+&lt;h2 id=&#34;qué-es-el-despliegue-continuo&#34;&gt;¿Qué es el despliegue continuo?&lt;/h2&gt;
+&lt;p&gt;El despliegue continuo es una práctica de &lt;strong&gt;DevOps&lt;/strong&gt; que permite actualizar aplicaciones de forma automática.&lt;/p&gt;
+&lt;h3 id=&#34;configuración-de-netlify&#34;&gt;Configuración de Netlify&lt;/h3&gt;
+&lt;p&gt;Netlify es una plataforma moderna que facilita el hosting de sitios estáticos.&lt;/p&gt;
+&lt;h4 id=&#34;características-de-netlify&#34;&gt;Características de Netlify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Deploy automático desde Git&lt;/li&gt;
+&lt;li&gt;HTTPS gratuito&lt;/li&gt;
+&lt;li&gt;CDN global&lt;/li&gt;
+&lt;li&gt;Previews de ramas&lt;/li&gt;
+&lt;li&gt;Formularios integrados&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;proceso-de-despliegue&#34;&gt;Proceso de despliegue&lt;/h5&gt;
+&lt;p&gt;El flujo de trabajo es simple:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Desarrollar en local&lt;/li&gt;
+&lt;li&gt;Generar el sitio con &lt;code&gt;hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Hacer commit de los cambios&lt;/li&gt;
+&lt;li&gt;Push al repositorio&lt;/li&gt;
+&lt;li&gt;Netlify despliega automáticamente&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h6 id=&#34;script-de-automatización&#34;&gt;Script de automatización&lt;/h6&gt;
+&lt;p&gt;He creado un script bash que automatiza todo:&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Mi Primera Entrada con Hugo</title>
+      <link>http://localhost:1313/posts/primeraentrada/</link>
+      <pubDate>Thu, 09 Oct 2025 10:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/primeraentrada/</guid>
+      
+      <description>&lt;h1 id=&#34;mi-experiencia-con-hugo&#34;&gt;Mi experiencia con Hugo&lt;/h1&gt;
+&lt;h2 id=&#34;por-qué-elegí-hugo&#34;&gt;¿Por qué elegí Hugo?&lt;/h2&gt;
+&lt;p&gt;Hugo es un generador de sitios estáticos increíblemente &lt;strong&gt;rápido&lt;/strong&gt; y &lt;strong&gt;fácil de usar&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;ventajas-principales&#34;&gt;Ventajas principales&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Velocidad de generación impresionante&lt;/li&gt;
+&lt;li&gt;Sintaxis simple con Markdown&lt;/li&gt;
+&lt;li&gt;Gran ecosistema de temas&lt;/li&gt;
+&lt;li&gt;Documentación completa y clara&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;pasos-que-seguí&#34;&gt;Pasos que seguí&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Instalé Hugo en Debian 13&lt;/li&gt;
+&lt;li&gt;Creé el sitio base con &lt;code&gt;hugo new site&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Instalé el tema Hugo Blog Awesome&lt;/li&gt;
+&lt;li&gt;Configuré el archivo hugo.toml&lt;/li&gt;
+&lt;li&gt;Creé contenido en Markdown&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;enlaces-de-interés&#34;&gt;Enlaces de interés&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;Documentación oficial de Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hugo-sid/hugo-blog-awesome&#34;&gt;Hugo Blog Awesome en GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io/&#34;&gt;Comunidad de Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6 id=&#34;conclusión&#34;&gt;Conclusión&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;https://markdown-here.com/img/icon256.png&#34; alt=&#34;Markdown Logo&#34;&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

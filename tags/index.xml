@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Mi Sitio Web con Hugo</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Mi Sitio Web con Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 09 Oct 2025 12:00:00 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contenido</title>
+      <link>http://localhost:1313/tags/contenido/</link>
+      <pubDate>Thu, 09 Oct 2025 12:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/contenido/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>http://localhost:1313/tags/html/</link>
+      <pubDate>Thu, 09 Oct 2025 12:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/html/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/tags/markdown/</link>
+      <pubDate>Thu, 09 Oct 2025 12:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/markdown/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Automatización</title>
+      <link>http://localhost:1313/tags/automatizaci%C3%B3n/</link>
+      <pubDate>Thu, 09 Oct 2025 11:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/automatizaci%C3%B3n/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ci-Cd</title>
+      <link>http://localhost:1313/tags/ci-cd/</link>
+      <pubDate>Thu, 09 Oct 2025 11:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/ci-cd/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>http://localhost:1313/tags/devops/</link>
+      <pubDate>Thu, 09 Oct 2025 11:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/devops/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Netlify</title>
+      <link>http://localhost:1313/tags/netlify/</link>
+      <pubDate>Thu, 09 Oct 2025 11:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/netlify/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Desarrollo</title>
+      <link>http://localhost:1313/tags/desarrollo/</link>
+      <pubDate>Thu, 09 Oct 2025 10:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/desarrollo/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Thu, 09 Oct 2025 10:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>http://localhost:1313/tags/web/</link>
+      <pubDate>Thu, 09 Oct 2025 10:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/web/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

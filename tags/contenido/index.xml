@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contenido on Mi Sitio Web con Hugo</title>
+    <link>http://localhost:1313/tags/contenido/</link>
+    <description>Recent content in Contenido on Mi Sitio Web con Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 09 Oct 2025 12:00:00 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/contenido/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown y HTML: La Combinación Perfecta</title>
+      <link>http://localhost:1313/posts/terceraentrada/</link>
+      <pubDate>Thu, 09 Oct 2025 12:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/terceraentrada/</guid>
+      
+      <description>&lt;h1 id=&#34;el-poder-de-markdown&#34;&gt;El poder de Markdown&lt;/h1&gt;
+&lt;h2 id=&#34;qué-es-markdown&#34;&gt;¿Qué es Markdown?&lt;/h2&gt;
+&lt;p&gt;Markdown es un &lt;strong&gt;lenguaje de marcado ligero&lt;/strong&gt; creado por John Gruber en 2004.&lt;/p&gt;
+&lt;h3 id=&#34;ventajas-de-usar-markdown&#34;&gt;Ventajas de usar Markdown&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sintaxis simple y legible&lt;/li&gt;
+&lt;li&gt;Fácil de aprender&lt;/li&gt;
+&lt;li&gt;Se convierte automáticamente a HTML&lt;/li&gt;
+&lt;li&gt;Compatible con control de versiones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;elementos-html-básicos&#34;&gt;Elementos HTML básicos&lt;/h4&gt;
+&lt;p&gt;En este artículo he usado todos los elementos requeridos:&lt;/p&gt;
+&lt;h5 id=&#34;títulos-h1-a-h6&#34;&gt;Títulos (H1 a H6)&lt;/h5&gt;
+&lt;p&gt;Ya puedes ver que uso títulos de diferentes niveles, desde el H1 principal hasta este H5.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
