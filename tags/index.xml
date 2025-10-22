@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Mi Sitio Web con Hugo</title>
+    <title>Tags on JsiL3RO</title>
     <link>https://jsil3ro.netlify.app/tags/</link>
-    <description>Recent content in Tags on Mi Sitio Web con Hugo</description>
+    <description>Recent content in Tags on JsiL3RO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jsil3ro.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jsil3ro.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kvm</title>
       <link>https://jsil3ro.netlify.app/tags/kvm/</link>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
       
       <guid>https://jsil3ro.netlify.app/tags/kvm/</guid>
       
@@ -21,7 +21,7 @@
     <item>
       <title>Libvirt</title>
       <link>https://jsil3ro.netlify.app/tags/libvirt/</link>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
       
       <guid>https://jsil3ro.netlify.app/tags/libvirt/</guid>
       
@@ -32,7 +32,7 @@
     <item>
       <title>Linux</title>
       <link>https://jsil3ro.netlify.app/tags/linux/</link>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
       
       <guid>https://jsil3ro.netlify.app/tags/linux/</guid>
       
@@ -43,7 +43,7 @@
     <item>
       <title>Redes</title>
       <link>https://jsil3ro.netlify.app/tags/redes/</link>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
       
       <guid>https://jsil3ro.netlify.app/tags/redes/</guid>
       
@@ -54,7 +54,7 @@
     <item>
       <title>Virtualización</title>
       <link>https://jsil3ro.netlify.app/tags/virtualizaci%C3%B3n/</link>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
       
       <guid>https://jsil3ro.netlify.app/tags/virtualizaci%C3%B3n/</guid>
       

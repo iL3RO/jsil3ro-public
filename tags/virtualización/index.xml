@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Virtualización on Mi Sitio Web con Hugo</title>
+    <title>Virtualización on JsiL3RO</title>
     <link>https://jsil3ro.netlify.app/tags/virtualizaci%C3%B3n/</link>
-    <description>Recent content in Virtualización on Mi Sitio Web con Hugo</description>
+    <description>Recent content in Virtualización on JsiL3RO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jsil3ro.netlify.app/tags/virtualizaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jsil3ro.netlify.app/tags/virtualizaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Escenario de Virtualización con KVM y Libvirt</title>
       <link>https://jsil3ro.netlify.app/posts/primeraentrada/</link>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
       
       <guid>https://jsil3ro.netlify.app/posts/primeraentrada/</guid>
       
