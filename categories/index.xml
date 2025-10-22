@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mi Sitio Web con Hugo</title>
-    <link>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/categories/</link>
+    <link>https://jsil3ro.netlify.app/categories/</link>
     <description>Recent content in Categories on Mi Sitio Web con Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language><atom:link href="https://jsil3ro.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

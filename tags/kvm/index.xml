@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kvm on Mi Sitio Web con Hugo</title>
-    <link>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/tags/kvm/</link>
+    <link>https://jsil3ro.netlify.app/tags/kvm/</link>
     <description>Recent content in Kvm on Mi Sitio Web con Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/tags/kvm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jsil3ro.netlify.app/tags/kvm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Escenario de Virtualización con KVM y Libvirt</title>
-      <link>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/posts/primeraentrada/</link>
+      <link>https://jsil3ro.netlify.app/posts/primeraentrada/</link>
       <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/posts/primeraentrada/</guid>
+      <guid>https://jsil3ro.netlify.app/posts/primeraentrada/</guid>
       
       <description>&lt;h1 id=&#34;escenario-de-virtualización-con-kvm-y-libvirt&#34;&gt;Escenario de Virtualización con KVM y Libvirt&lt;/h1&gt;
 &lt;p&gt;Lo que vamos hacer es un escenario con escenario por línea de comandos, con tres máquinas y dos redes.&lt;/p&gt;
