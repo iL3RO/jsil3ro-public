@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Automatización on Mi Sitio Web con Hugo</title>
-    <link>http://localhost:1313/tags/automatizaci%C3%B3n/</link>
+    <link>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/tags/automatizaci%C3%B3n/</link>
     <description>Recent content in Automatización on Mi Sitio Web con Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 09 Oct 2025 11:00:00 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/automatizaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Oct 2025 11:00:00 +0100</lastBuildDate><atom:link href="https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/tags/automatizaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Despliegue Continuo con Netlify</title>
-      <link>http://localhost:1313/posts/segundaentrada/</link>
+      <link>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/posts/segundaentrada/</link>
       <pubDate>Thu, 09 Oct 2025 11:00:00 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/segundaentrada/</guid>
+      <guid>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/posts/segundaentrada/</guid>
       
       <description>&lt;h1 id=&#34;automatización-del-despliegue&#34;&gt;Automatización del Despliegue&lt;/h1&gt;
 &lt;h2 id=&#34;qué-es-el-despliegue-continuo&#34;&gt;¿Qué es el despliegue continuo?&lt;/h2&gt;

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redes on Mi Sitio Web con Hugo</title>
+    <link>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/tags/redes/</link>
+    <description>Recent content in Redes on Mi Sitio Web con Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/tags/redes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Escenario de Virtualización con KVM y Libvirt</title>
+      <link>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/posts/primeraentrada/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/posts/primeraentrada/</guid>
+      
+      <description>&lt;h1 id=&#34;escenario-de-virtualización-con-kvm-y-libvirt&#34;&gt;Escenario de Virtualización con KVM y Libvirt&lt;/h1&gt;
+&lt;p&gt;Lo que vamos hacer es un escenario con escenario por línea de comandos, con tres máquinas y dos redes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Router&lt;/strong&gt;: Conectará las máquinas virtuales con Internet&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Servidor NAS&lt;/strong&gt;: Almacenará los archivos de la página web&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Servidor Web&lt;/strong&gt;: Mostrará la página web que está en el NAS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;asociar-la-ip-flotante&#34;&gt;Asociar la IP flotante&lt;/h2&gt;
+&lt;p&gt;Una vez creada tendremos que asociar la IP flotante que en mi caso es la 172.22.200.125&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

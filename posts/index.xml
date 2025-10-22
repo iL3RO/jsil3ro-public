@@ -2,17 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Mi Sitio Web con Hugo</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/posts/</link>
     <description>Recent content in Posts on Mi Sitio Web con Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 09 Oct 2025 12:00:00 +0100</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Escenario de Virtualización con KVM y Libvirt</title>
+      <link>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/posts/primeraentrada/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/posts/primeraentrada/</guid>
+      
+      <description>&lt;h1 id=&#34;escenario-de-virtualización-con-kvm-y-libvirt&#34;&gt;Escenario de Virtualización con KVM y Libvirt&lt;/h1&gt;
+&lt;p&gt;Lo que vamos hacer es un escenario con escenario por línea de comandos, con tres máquinas y dos redes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Router&lt;/strong&gt;: Conectará las máquinas virtuales con Internet&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Servidor NAS&lt;/strong&gt;: Almacenará los archivos de la página web&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Servidor Web&lt;/strong&gt;: Mostrará la página web que está en el NAS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;asociar-la-ip-flotante&#34;&gt;Asociar la IP flotante&lt;/h2&gt;
+&lt;p&gt;Una vez creada tendremos que asociar la IP flotante que en mi caso es la 172.22.200.125&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Markdown y HTML: La Combinación Perfecta</title>
-      <link>http://localhost:1313/posts/terceraentrada/</link>
+      <link>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/posts/terceraentrada/</link>
       <pubDate>Thu, 09 Oct 2025 12:00:00 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/terceraentrada/</guid>
+      <guid>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/posts/terceraentrada/</guid>
       
       <description>&lt;h1 id=&#34;el-poder-de-markdown&#34;&gt;El poder de Markdown&lt;/h1&gt;
 &lt;h2 id=&#34;qué-es-markdown&#34;&gt;¿Qué es Markdown?&lt;/h2&gt;
@@ -33,10 +52,10 @@
     
     <item>
       <title>Despliegue Continuo con Netlify</title>
-      <link>http://localhost:1313/posts/segundaentrada/</link>
+      <link>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/posts/segundaentrada/</link>
       <pubDate>Thu, 09 Oct 2025 11:00:00 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/segundaentrada/</guid>
+      <guid>https://www.superdeporte.es/fuera-de-juego/salud/guia/cuidados-cuero-cabelludo-calvos-101673938.html/posts/segundaentrada/</guid>
       
       <description>&lt;h1 id=&#34;automatización-del-despliegue&#34;&gt;Automatización del Despliegue&lt;/h1&gt;
 &lt;h2 id=&#34;qué-es-el-despliegue-continuo&#34;&gt;¿Qué es el despliegue continuo?&lt;/h2&gt;
@@ -62,42 +81,6 @@
 &lt;/ol&gt;
 &lt;h6 id=&#34;script-de-automatización&#34;&gt;Script de automatización&lt;/h6&gt;
 &lt;p&gt;He creado un script bash que automatiza todo:&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Mi Primera Entrada con Hugo</title>
-      <link>http://localhost:1313/posts/primeraentrada/</link>
-      <pubDate>Thu, 09 Oct 2025 10:00:00 +0100</pubDate>
-      
-      <guid>http://localhost:1313/posts/primeraentrada/</guid>
-      
-      <description>&lt;h1 id=&#34;mi-experiencia-con-hugo&#34;&gt;Mi experiencia con Hugo&lt;/h1&gt;
-&lt;h2 id=&#34;por-qué-elegí-hugo&#34;&gt;¿Por qué elegí Hugo?&lt;/h2&gt;
-&lt;p&gt;Hugo es un generador de sitios estáticos increíblemente &lt;strong&gt;rápido&lt;/strong&gt; y &lt;strong&gt;fácil de usar&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;ventajas-principales&#34;&gt;Ventajas principales&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Velocidad de generación impresionante&lt;/li&gt;
-&lt;li&gt;Sintaxis simple con Markdown&lt;/li&gt;
-&lt;li&gt;Gran ecosistema de temas&lt;/li&gt;
-&lt;li&gt;Documentación completa y clara&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;pasos-que-seguí&#34;&gt;Pasos que seguí&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;Instalé Hugo en Debian 13&lt;/li&gt;
-&lt;li&gt;Creé el sitio base con &lt;code&gt;hugo new site&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Instalé el tema Hugo Blog Awesome&lt;/li&gt;
-&lt;li&gt;Configuré el archivo hugo.toml&lt;/li&gt;
-&lt;li&gt;Creé contenido en Markdown&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h5 id=&#34;enlaces-de-interés&#34;&gt;Enlaces de interés&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;Documentación oficial de Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hugo-sid/hugo-blog-awesome&#34;&gt;Hugo Blog Awesome en GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io/&#34;&gt;Comunidad de Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h6 id=&#34;conclusión&#34;&gt;Conclusión&lt;/h6&gt;
-&lt;p&gt;&lt;img src=&#34;https://markdown-here.com/img/icon256.png&#34; alt=&#34;Markdown Logo&#34;&gt;&lt;/p&gt;</description>
       
     </item>
     
