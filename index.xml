@@ -118,7 +118,11 @@
       
       <guid>https://jsil3ro.netlify.app/posts/cuartaentrada/</guid>
       
-      <description>&lt;h1 id=&#34;instalación-servidor-oracle-21c-express-edition-debian-13&#34;&gt;Instalación Servidor Oracle 21c Express Edition Debian 13&lt;/h1&gt;
+      <description>&lt;p&gt;title: &amp;ldquo;Instalación de Oracle en DEbian 13&amp;rdquo;
+date: 2025-10-22
+draft: false
+tags: [&amp;ldquo;virtualización&amp;rdquo;, &amp;ldquo;kvm&amp;rdquo;, &amp;ldquo;libvirt&amp;rdquo;, &amp;ldquo;redes&amp;rdquo;, &amp;ldquo;linux&amp;rdquo;]&lt;/p&gt;
+&lt;h1 id=&#34;instalación-servidor-oracle-21c-express-edition-debian-13&#34;&gt;Instalación Servidor Oracle 21c Express Edition Debian 13&lt;/h1&gt;
 &lt;h2 id=&#34;requisitos-previos&#34;&gt;Requisitos previos&lt;/h2&gt;
 &lt;p&gt;Lo primero de todo vamos a actualizar el sistema e instalar las dependencias para poder instalarnos Oracle:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt update
