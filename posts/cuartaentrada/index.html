@@ -53,7 +53,7 @@
         },
         "datePublished": "2025-10-29",
         "description": "",
-        "wordCount":  368 ,
+        "wordCount":  555 ,
         "mainEntityOfPage": "True",
         "dateModified": "2025-10-29",
         "image": {
@@ -253,8 +253,56 @@ stroke-linejoin="round" class="feather feather-home">
 <h3 id="configuración-del-servidor">Configuración del servidor</h3>
 <p>Lo primero que tenemos que hacer en el servidor es editar el <code>listener.ora</code> y el <code>tnsnames.ora</code> para conectarnos remotamente:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nano /opt/oracle/homes/OraDBHome21cEE/network/admin/listener.ora
-</span></span></code></pre></div><p>Contenido del <code>listener.ora</code>:</p>
-
+</span></span></code></pre></div><p>Contenido del <code>listener.ora</code>:
+LISTENER =
+(DESCRIPTION_LIST =
+(DESCRIPTION =
+(ADDRESS = (PROTOCOL = TCP)(HOST = 0.0.0.0)(PORT = 1521))
+(ADDRESS = (PROTOCOL = IPC)(KEY = EXTPROC1521))
+)
+)
+Ahora editamos el <code>tnsnames.ora</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nano /opt/oracle/homes/OraDBHome21cEE/network/admin/tnsnames.ora
+</span></span></code></pre></div><p>Contenido del <code>tnsnames.ora</code>:
+ORCLcdb =
+(DESCRIPTION =
+(ADDRESS = (PROTOCOL = TCP)(HOST = 0.0.0.0)(PORT = 1521))
+(CONNECT_DATA =
+(SERVER = DEDICATED)
+(SERVICE_NAME = ORCLcdb)
+)
+)
+LISTENER_ORCLcdb =
+(ADDRESS = (PROTOCOL = TCP)(HOST = TU_HOSTNAME)(PORT = 1521))</p>
+<h2 id="configuración-del-cliente">Configuración del cliente</h2>
+<h3 id="instalación-de-dependencias-en-el-cliente">Instalación de dependencias en el cliente</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install libaio1t64 libaio-dev rlwrap wget p7zip-full -y
+</span></span></code></pre></div><h3 id="crear-enlace-simbólico-en-el-cliente">Crear enlace simbólico en el cliente</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo ln -s /usr/lib/x86_64-linux-gnu/libaio.so.1t64 <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  /usr/lib/x86_64-linux-gnu/libaio.so.1
+</span></span></code></pre></div><h3 id="crear-directorio-y-descargar-paquetes">Crear directorio y descargar paquetes</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir ~/oracle
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ~/oracle
+</span></span></code></pre></div><p>Descargamos los paquetes desde el sitio oficial de Oracle:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wget https://download.oracle.com/otn_software/linux/instantclient/2119000/instantclient-basic-linux.x64-21.19.0.0.0dbru.zip
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">wget https://download.oracle.com/otn_software/linux/instantclient/2119000/instantclient-sqlplus-linux.x64-21.19.0.0.0dbru.zip
+</span></span></code></pre></div><h3 id="instalación-de-p7zip-y-descompresión">Instalación de p7zip y descompresión</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install p7zip-full
+</span></span><span class="line"><span class="cl">7z x instantclient-basic-linux.x64-21.19.0.0.0dbru.zip
+</span></span><span class="line"><span class="cl">7z x instantclient-sqlplus-linux.x64-21.19.0.0.0dbru.zip
+</span></span></code></pre></div><p>Una vez descomprimidos, podemos borrar los archivos .zip:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">rm -r instantclient-basic-linux.x64-21.19.0.0.0dbru.zip
+</span></span><span class="line"><span class="cl">rm -r instantclient-sqlplus-linux.x64-21.19.0.0.0dbru.zip
+</span></span></code></pre></div><h3 id="configuración-de-variables-de-entorno-en-el-cliente">Configuración de variables de entorno en el cliente</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;export ORACLE_HOME=$HOME/oracle/instantclient_21_19&#39;</span> &gt;&gt; ~/.bashrc
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;export PATH=$ORACLE_HOME:$PATH&#39;</span> &gt;&gt; ~/.bashrc
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;export LD_LIBRARY_PATH=$ORACLE_HOME:$LD_LIBRARY_PATH&#39;</span> &gt;&gt; ~/.bashrc
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;alias sqlplus=&#39;rlwrap sqlplus&#39;&#34;</span> &gt;&gt; ~/.bashrc
+</span></span><span class="line"><span class="cl"><span class="nb">source</span> ~/.bashrc
+</span></span></code></pre></div><h3 id="conexión-remota-desde-el-cliente">Conexión remota desde el cliente</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sqlplus usuario/contraseña@ip/ORCLCDB
+</span></span></code></pre></div>
             </div>
         </article></main>
 </div>
