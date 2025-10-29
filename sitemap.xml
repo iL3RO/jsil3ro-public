@@ -2,10 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jsil3ro.netlify.app/posts/primeraentrada/</loc>
-    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+    <loc>https://jsil3ro.netlify.app/tags/bases-de-datos/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jsil3ro.netlify.app/categories/bases-de-datos/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jsil3ro.netlify.app/categories/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jsil3ro.netlify.app/tags/debian/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jsil3ro.netlify.app/tags/instalaci%C3%B3n/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jsil3ro.netlify.app/posts/cuartaentrada/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jsil3ro.netlify.app/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jsil3ro.netlify.app/tags/oracle/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jsil3ro.netlify.app/posts/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jsil3ro.netlify.app/tags/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jsil3ro.netlify.app/categories/tutoriales/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jsil3ro.netlify.app/posts/primeraentrada/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jsil3ro.netlify.app/tags/kvm/</loc>
@@ -17,13 +47,7 @@
     <loc>https://jsil3ro.netlify.app/tags/linux/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jsil3ro.netlify.app/posts/</loc>
-    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jsil3ro.netlify.app/tags/redes/</loc>
-    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jsil3ro.netlify.app/tags/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jsil3ro.netlify.app/tags/virtualizaci%C3%B3n/</loc>
@@ -58,9 +82,5 @@
   </url><url>
     <loc>https://jsil3ro.netlify.app/yo/</loc>
     <lastmod>2025-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jsil3ro.netlify.app/posts/cuartaentrada/</loc>
-  </url><url>
-    <loc>https://jsil3ro.netlify.app/categories/</loc>
   </url>
 </urlset>

@@ -5,6 +5,29 @@
     <link>https://jsil3ro.netlify.app/categories/</link>
     <description>Recent content in Categories on JsiL3RO</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="https://jsil3ro.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language>
+    <lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jsil3ro.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bases De Datos</title>
+      <link>https://jsil3ro.netlify.app/categories/bases-de-datos/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsil3ro.netlify.app/categories/bases-de-datos/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tutoriales</title>
+      <link>https://jsil3ro.netlify.app/categories/tutoriales/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsil3ro.netlify.app/categories/tutoriales/</guid>
+      
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

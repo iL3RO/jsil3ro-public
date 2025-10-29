@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oracle on JsiL3RO</title>
+    <link>https://jsil3ro.netlify.app/tags/oracle/</link>
+    <description>Recent content in Oracle on JsiL3RO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jsil3ro.netlify.app/tags/oracle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalación Servidor Oracle 21c Express Edition en Debian 13</title>
+      <link>https://jsil3ro.netlify.app/posts/cuartaentrada/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsil3ro.netlify.app/posts/cuartaentrada/</guid>
+      
+      <description>&lt;h1 id=&#34;instalación-servidor-oracle-21c-express-edition-debian-13&#34;&gt;Instalación Servidor Oracle 21c Express Edition Debian 13&lt;/h1&gt;
+&lt;h2 id=&#34;requisitos-previos&#34;&gt;Requisitos previos&lt;/h2&gt;
+&lt;p&gt;Lo primero de todo vamos a actualizar el sistema e instalar las dependencias para poder instalarnos Oracle:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install rlwrap libaio1t64 libaio-dev unixodbc wget -y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;creación-de-enlace-simbólico-para-libaio&#34;&gt;Creación de enlace simbólico para libaio&lt;/h2&gt;
+&lt;p&gt;En Debian 12 requiere un paquete llamado &lt;code&gt;libaio1&lt;/code&gt;, pero en Debian 13, este paquete ahora se llama &lt;code&gt;libaio1t64&lt;/code&gt;. El problema es que Oracle Database está programado para buscar un archivo específico con el nombre &lt;code&gt;/usr/lib/x86_64-linux-gnu/libaio.so.1&lt;/code&gt;, en Debian 13 ese archivo ahora se llama &lt;code&gt;/usr/lib/x86_64-linux-gnu/libaio.so.1t64&lt;/code&gt;.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
