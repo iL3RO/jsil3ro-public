@@ -5,7 +5,10 @@
     <loc>https://jsil3ro.netlify.app/</loc>
     <lastmod>2025-10-30T12:19:24+01:00</lastmod>
   </url><url>
-    <loc>https://jsil3ro.netlify.app/prueba/</loc>
+    <loc>https://jsil3ro.netlify.app/posts/</loc>
+    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jsil3ro.netlify.app/posts/5entrada/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jsil3ro.netlify.app/tags/bases-de-datos/</loc>
@@ -27,9 +30,6 @@
     <lastmod>2025-10-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jsil3ro.netlify.app/tags/oracle/</loc>
-    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jsil3ro.netlify.app/posts/</loc>
     <lastmod>2025-10-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jsil3ro.netlify.app/tags/</loc>
@@ -85,5 +85,7 @@
   </url><url>
     <loc>https://jsil3ro.netlify.app/yo/</loc>
     <lastmod>2025-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jsil3ro.netlify.app/prueba/</loc>
   </url>
 </urlset>
